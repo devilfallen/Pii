@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "f325ee578444d70ad2d02b0673f94d3a"))
+API_HASH = getenv("API_HASH", "20584104")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:nays@cluster0.vjg7bma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", 5931622575))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002065943011"))
+OWNER_ID = int(getenv("OWNER_ID", "6997506255"))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "",
@@ -20,7 +20,7 @@ UPSTREAM_REPO = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAFcE2IAPuGANyvl5NG7Uucsy77hJPOfb0WPTIAbQxrCIFZlgZZR2KtLCilm6-aRmif0j8DcWtTqipsCn3sjFxBqYXdrN-X4iid7XfFEhSawR-Ns2FnIWqwWRiio-f3NCP6Ja_RpAyyyMlVv_tg4h5JtSAvkwKviDKirK_UGxAEw8wCmKKGj4TaNcOhGqiXNcstjxLhDrFtfmqrAaTRESLuCjokSq4SU62yu5-57qaNesB9ctBfP-7nlPnfhL9U_dG3een0NMGwOh2PDDNZ9Uz6kAfu5UNHUgtFUIMCBsll2ecbCflb3gDqD37ZIRHXfy8gkadiJ76oWnoDNYzFLw16f-LZYIQAAAAFp2w_AAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
